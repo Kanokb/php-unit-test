@@ -4,8 +4,9 @@ class GradeCalculator{
         if($score > 100 || $score < 0){
             return "Invalid score";
         }
-
-        if($score >= 80){
+        if($score >= 90){
+            return "A+";
+        }else if($score >= 80){
             return "A";
         }else if($score >= 75){
             return "B+";
