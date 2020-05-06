@@ -20,8 +20,7 @@ class FizzBuzzCalculator{
         else if($i % 3 == 0){
             return "Fizz";
         }
-        else {
-            return "$i";
-        }
+
+        return "$i";
     }
 }
