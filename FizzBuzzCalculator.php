@@ -19,13 +19,8 @@ class FizzBuzzCalculator{
         }
         else if($number % 3 == 0){
             return "Fizz";
-        }
-<<<<<<< HEAD
-        
-        return "$i";
-=======
-
-        return "$number";
->>>>>>> 33057faf4e052c42445ba098bb697d336f5c3754
+        } 
+     return "$number";
     }
+
 }
